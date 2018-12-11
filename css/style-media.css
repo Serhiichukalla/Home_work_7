@@ -1,0 +1,214 @@
+/* Style for media*/
+
+@media (max-width: 960px){
+	.header{
+	height: 790px;
+	}
+
+	.wrapper{
+		width: 730px;
+	}
+	.header-top{
+		flex-direction: column;
+	}
+	.logo{
+		margin-bottom: 35px;
+	}
+
+	.wrapper_in_head_bottom{
+	width: 730px;
+	margin:0 auto;
+	}
+
+	.info span{
+		display: none;
+	}
+
+	.info p:first-child{
+	font-size: 40px;
+	}
+
+	.info p:nth-child(2){
+	 font-size: 20px;
+	}
+
+	.info_about p:first-child{
+	font-size: 16px;
+	}
+
+
+	.info_about p:nth-child(2) span{
+		display: none;
+	}
+	
+
+	.updates p:last-child{
+	font-size: 11px;
+	}
+
+	.left_p_2{
+		display: none;
+	}
+
+	 .partner_1{
+ 	margin-left: 0px;
+ 	}
+
+ .partner_6{
+ 	margin-right: 0px;
+ 	}
+}
+
+@media (max-width: 768px) {
+	.header{
+	height: 560px;
+	}
+
+	.wrapper{
+		width: 440px;
+	}
+	.header-top{
+		align-items: center;
+	}
+
+	.menu li{
+		margin: 0;
+		display: none;
+	}
+	
+	.menu li:first-child{
+		display: block;
+	}
+
+	.header-bottom{
+	margin-top: 20px;
+	}
+
+	.wrapper_in_head_bottom{
+	width: 405px;
+	margin:0 auto;
+	}
+	
+	.line{
+		height: 245px;
+		top:220px;
+	}
+
+	.info p:last-child{
+		display: none;
+	}
+
+	.phone{
+		margin-left: 20px;
+	}
+
+	.phone img{
+		width: 196px;
+	}
+
+	.info p:first-child {
+   		font-size: 27px;
+	}
+	.info p:nth-child(2) {
+    	font-size: 12px;
+	}
+
+	.about_company{
+	height: 590px;
+	background-size: cover;
+	}
+
+	.about_company .wrapper{
+		flex-direction:column;
+	}
+
+	.info_about:first-child{
+		margin-top: 90px;
+	}
+	
+	.info_about{
+		margin-top: 30px;
+		margin-right: 0px;
+	}
+
+	.responce{
+		height: 780px;
+	}
+
+	.responce .wrapper{
+	display: flex;
+	flex-direction: column;
+	}
+
+	.left_responce , .right_responce{
+		width: 100%;
+	}
+	
+	.left_responce{
+		margin-top: 68px;
+	}
+
+	.updates p:last-child{
+	font-size: 14px;
+	}
+
+	.partners{
+		height: 232px;
+	}
+
+	.partners .wrapper{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.partner{
+		width: 33%;
+	}
+	
+	.partner{
+		margin: 0px;
+	}
+	
+
+}
+
+@media (max-width: 480px) {
+	.header{
+	height: 515px;
+	}
+	.wrapper, .wrapper_in_head_bottom{
+		width: 280px;
+	}
+	
+	.phone{
+		display: none;
+	}
+	
+	.info{
+		width: 100%;
+	}
+
+	.info p{
+		text-align: center;
+	}
+
+	.line{
+		display: none;
+	}
+	
+	.info_about:first-child{
+		margin-top: 60px;
+	}
+
+	.left_p_1{
+		display: none;
+	}
+
+	.right_p{
+		display: none;
+	}
+
+	.partner{
+		width: 50%;
+	}
+}
